@@ -81,7 +81,7 @@ http://www.tooplate.com/view/2078-adventure
 				<span class="icon icon-bar"></span>
 			</button>
 			<a href="#home" class="smoothScroll navbar-brand">
-				<img src="images/Logo.png" class="img-responsive">
+				<img src="images/Logo.png">
 			</a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -461,7 +461,6 @@ http://www.tooplate.com/view/2078-adventure
 					</figure>
 				</div>
             </div>   
-
             <div class="col-md-4 col-sm-6">
 				<div class="grid">
               		<figure class="effect-zoe">
@@ -530,99 +529,7 @@ http://www.tooplate.com/view/2078-adventure
 							</figcaption>			
 					</figure>
 				</div>
-            </div>
-
-            <!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title1">
-					<h1 class="heading">POSTERS</h1>
-				</div>
-			</div>
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/flyer/f2wl.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>FW2L SMANDU BANDUNG</h2>
-								<p class="icon-links">
-									<a href="images/flyer/f2wl.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div>   
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/flyer/smantigfest.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>SMANTIG FEST MEDAN</h2>
-								<p class="icon-links">
-									<a href="images/flyer/smantigfest.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
             </div> 
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/flyer/SOD-4.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>SOD 4</h2>
-								<p class="icon-links">
-									<a href="images/flyer/SOD-4.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-          	
-          	<div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/flyer/sungha-01.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>SUNGHA JUNG</h2>
-								<p class="icon-links">
-									<a href="images/flyer/sungha-01.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/flyer/soundrenaline.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>SOUNDRENALINE 2015</h2>
-								<p class="icon-links">
-									<a href="images/flyer/soundrenaline.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/flyer/titik.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>SMA BIAS TITIK</h2>
-								<p class="icon-links">
-									<a href="images/flyer/titik.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div>  
 
             <!-- Portfolio bottom section
 			================================================== -->
@@ -734,7 +641,7 @@ http://www.tooplate.com/view/2078-adventure
 			<!-- Contact form section
 			================================================== -->
 			<div class="col-md-offset-1 col-md-10 col-sm-12">
-				<form action="simpan.php" method="post" class="wow fadeInUp" data-wow-delay="0.6s">
+				<form action="#" method="post" class="wow fadeInUp" data-wow-delay="0.6s">
 					<div class="col-md-4 col-sm-6">
 						<input type="text" class="form-control" placeholder="Name" name="name">
 					</div>
@@ -744,12 +651,8 @@ http://www.tooplate.com/view/2078-adventure
 					<div class="col-md-4 col-sm-12">
 						<input type="text" class="form-control" placeholder="Subject" name="subject">
 					</div>
-<!-- 					<div class="col-md-4 col-sm-12">
-						<input type="text" class="form-control" placeholder="Subject" name="message">
-					</div> -->
 					<div class="col-md-12 col-sm-12">
-						<textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
-						<!-- <textarea  name"message" class="form-control" placeholder="Message"></textarea> -->
+						<textarea class="form-control" placeholder="Message" rows="7" name"message"></textarea>
 					</div>
 					<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
 						<input type="submit" class="form-control" value="SHOOT MESSAGE">

@@ -777,6 +777,10 @@ footer h2 {
   .heading {
     font-size: 62px;
   }
+  .img-responsive{
+        width: 50%;
+    margin-top: 10px;
+  }
   .custom-navbar .navbar-brand  {
   border: none;
   font-size: 18px;
