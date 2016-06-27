@@ -9,7 +9,7 @@
 
 	if($simpan){
 		echo "berhasil";
-		header('Location: index.html');
+		header('Location: index.php');
 	}
 	else
 		echo "gagal";
