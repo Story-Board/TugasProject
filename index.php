@@ -1,719 +1,557 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta charset="utf-8">
+    <title>Gentellela Alela! | </title>
 
-	<!-- Template site title
-   ================================================== -->
-	<title>StoryBoard Event Organizer</title>
-	<link href='images/icon-sb.ico' rel='shortcut icon'>
+    <!-- Bootstrap -->
+    <link href="template/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="template/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="template/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="template/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="template/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- bootstrap-progressbar -->
+    <link href="template/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="template/vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
 
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-<!--
+    <!-- Custom Theme Style -->
+    <link href="template/build/css/custom.min.css" rel="stylesheet">
+  </head>
 
-Template 2078 Adventure
-
-http://www.tooplate.com/view/2078-adventure
-
--->
-	<!-- Bootstrap CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-
-	<!-- Animate CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/animate.min.css">
-
-	<!-- Font Icons
-   ================================================== -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/et-line-font.css">
-
-	<!-- Nivo Lightbox CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo/default/default.css">
-
-	<!-- Owl Carousel CSS
-   ================================================== -->
-   	<link rel="stylesheet" href="css/owl.theme.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-
-	<!-- BxSlider CSS
-   ================================================== -->
-   	<link rel="stylesheet" href="css/bxslider.css">
-
-   	<!-- Main CSS
-   	================================================== -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Google web font
-   ================================================== -->
-	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
-	
-</head>
-
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
-
-
-<!-- Preloader section
-================================================== -->
-<section  class="preloader">
-
-	<div class="sk-rotating-plane"></div>
-
-</section>
-
-
-<!-- Navigation section
-================================================== -->
-<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
-	<div class="container">
-
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="#home" class="smoothScroll navbar-brand">
-				<img src="images/Logo.png">
-			</a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-            
-				<!-- <li><a href="#home" class="smoothScroll">HOME</a></li> -->
-                
-				<li><a href="#work" class="smoothScroll">WORK</a></li>
-				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
-				<li><a href="#team" class="smoothScroll">TEAM</a></li>
-				<li><a href="#portfolio" class="smoothScroll">GALLERY</a></li>
-				<li><a href="#plan" class="smoothScroll">PLANS</a></li>
-				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-			</ul>
-		</div>
-
-	</div>
-</section>
-
-
-<!-- Homepage section
-================================================== -->
-<div id="home">
-	<div class="site-slider">
-        <ul class="bxslider">
-			<li>
-                <img src="images/slider/slide1.jpg" alt="slider image 1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="slider-caption">
-                                <h2><img src="images/Logo-Big.png"></h2>
-                                <p class="color-white">Your Friendly Organizer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <img src="images/slider/slide2.jpg" alt="slider image 2">
-                <div class="container caption-wrapper">
-                    <div class="slider-caption">
-                        <h2><img src="images/Logo-Big.png"></h2>
-                        <p class="color-white">Wujudkan acaramu dengan Kreatifitas orang-orang terbaik kami.</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <img src="images/slider/slide3.jpg" alt="slider image 3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="slider-caption">
-                                <h2><img src="images/Logo-Big.png"></h2>
-                                <p class="color-white">Anda senang kami puas.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <img src="images/slider/slide4.jpg" alt="slider image 4">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="slider-caption">
-                                <h2><img src="images/Logo-Big.png"></h2>
-                                <p class="color-white">Kesuksesan acara adalah tanggung jawab kami.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <img src="images/slider/slide5.jpg" alt="slider image 5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="slider-caption">
-                                <h2><img src="images/Logo-Big.png"></h2>
-                               <p class="color-white">Selalu ada buat anda.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul> <!-- /.bxslider -->
-        <div class="bx-thumbnail-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="bx-pager">
-                            <a data-slide-index="0" href=""><img src="images/slider/thumb1.jpg" alt="thumbnail 1" /></a>
-                            <a data-slide-index="1" href=""><img src="images/slider/thumb2.jpg" alt="thumbnail 2" /></a>
-                            <a data-slide-index="2" href=""><img src="images/slider/thumb3.jpg" alt="thumbnail 3" /></a>
-                            <a data-slide-index="3" href=""><img src="images/slider/thumb4.jpg" alt="thumbnail 4" /></a>
-                            <a data-slide-index="4" href=""><img src="images/slider/thumb5.jpg" alt="thumbnail 5" /></a>
-                        </div>
-                    </div>
-                </div>
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentellela Alela!</span></a>
             </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="template/production/images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Welcome,</span>
+                <h2>John Doe</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
+                  <li><a><i class="fa fa-edit"></i> Gallery <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="http://localhost:8080/StoryBoardEO/admin/index.php?slink=formgallery">Tambah Data</a></li>
+                      <li><a href="http://localhost:8080/StoryBoardEO/admin/index.php?slink=datagallery">Lihat Data</a></li>
+                    </ul>
+                  </li>
+                  <!-- <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="general_elements.html">General Elements</a></li>
+                      <li><a href="media_gallery.html">Media Gallery</a></li>
+                      <li><a href="typography.html">Typography</a></li>
+                      <li><a href="icons.html">Icons</a></li>
+                      <li><a href="glyphicons.html">Glyphicons</a></li>
+                      <li><a href="widgets.html">Widgets</a></li>
+                      <li><a href="invoice.html">Invoice</a></li>
+                      <li><a href="inbox.html">Inbox</a></li>
+                      <li><a href="calendar.html">Calendar</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="tables.html">Tables</a></li>
+                      <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="chartjs.html">Chart JS</a></li>
+                      <li><a href="chartjs2.html">Chart JS2</a></li>
+                      <li><a href="morisjs.html">Moris JS</a></li>
+                      <li><a href="echarts.html">ECharts</a></li>
+                      <li><a href="other_charts.html">Other Charts</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
+                      <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                    </ul>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
         </div>
-    </div> <!-- /.site-slider -->
-</div>
 
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
 
-<!-- Work section
-================================================== -->
-<section id="work" class="parallax-section">
-	<div class="container">
-		<div class="row">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="template/production/images/img.jpg" alt="">John Doe
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;"> Profile</a></li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                  </ul>
+                </li>
 
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">STORYBOARD EO</h5>
-					<h1 class="heading">WHAT WE DO</h1>
-					<hr>
-					<p>Membuat acara anda menjadi lebih dahsyat dan PECAHHHH !!</p>
-				</div>
-			</div>
+                <li role="presentation" class="dropdown">
+                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="badge bg-green">6</span>
+                  </a>
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li>
+                      <a>
+                        <span class="image"><img src="template/production/images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="template/production/images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="template/production/images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="template/production/images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="text-center">
+                        <a>
+                          <strong>See All Alerts</strong>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
 
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <?php 
+            if(isset($_GET['slink'])){
+              switch($_GET['slink']){
+                case 'datagallery':include('gallery/data.php');break;
+                case 'formgallery':include('gallery/form.php');break;
+              }
+            } else {
+              ?>
+              <div class="page-title">
+                <div class="title_left">
+                  <h3>Halaman Dashboard</h3>
+                </div>
+              </div>
+              <?php
+            }
+        ?>
+          </div>
+        </div>  
+        <!-- /page content -->
 
-			<!-- Work Owl Carousel section
-			================================================== -->
-			<div id="owl-work" class="owl-carousel">
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-					<i class="icon-tools medium-icon"></i>
-						<h3>SOCIAL MEDIA</h3>
-						<hr>
-						<p>Sosial Media akan menjadi titik vital kami untuk memamerkan hasil karya kami</p>
-				</div>
+    <!-- jQuery -->
+    <script src="template/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="template/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="template/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="template/vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="template/vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- gauge.js -->
+    <script src="template/vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="template/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="template/vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="template/vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="template/vendors/Flot/jquery.flot.js"></script>
+    <script src="template/vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="template/vendors/Flot/jquery.flot.time.js"></script>
+    <script src="template/vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="template/vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="js/flot/jquery.flot.orderBars.js"></script>
+    <script src="js/flot/date.js"></script>
+    <script src="js/flot/jquery.flot.spline.js"></script>
+    <script src="js/flot/curvedLines.js"></script>
+    <!-- JQVMap -->
+    <script src="template/vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="template/vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="template/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="js/moment/moment.min.js"></script>
+    <script src="js/datepicker/daterangepicker.js"></script>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-					<i class="icon-tablet medium-icon"></i>
-						<h3>EVENT PLANNING</h3>
-						<hr>
-						<p>Kami akan membuat rencana acara anda menjadi kenyataan dan sukses.</p>
-				</div>
+    <!-- Custom Theme Scripts -->
+    <script src="template/build/js/custom.min.js"></script>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-					<i class="icon-bike medium-icon"></i>
-						<h3>WEB MARKETING</h3>
-						<hr>
-						<p>Promosi dengan media Website adalah salah satu promosi terbaik kami.</p>
-				</div>
+    <!-- Flot -->
+    <script>
+      $(document).ready(function() {
+        var data1 = [
+          [gd(2012, 1, 1), 17],
+          [gd(2012, 1, 2), 74],
+          [gd(2012, 1, 3), 6],
+          [gd(2012, 1, 4), 39],
+          [gd(2012, 1, 5), 20],
+          [gd(2012, 1, 6), 85],
+          [gd(2012, 1, 7), 7]
+        ];
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-					<i class="icon-flag medium-icon"></i>
-						<h3>EXPLORING PLACES</h3>
-						<hr>
-						<p>Kami akan melanglang buana ke tempat anda demi acara terbaik anda.</p>
-				</div>
+        var data2 = [
+          [gd(2012, 1, 1), 82],
+          [gd(2012, 1, 2), 23],
+          [gd(2012, 1, 3), 66],
+          [gd(2012, 1, 4), 9],
+          [gd(2012, 1, 5), 119],
+          [gd(2012, 1, 6), 6],
+          [gd(2012, 1, 7), 9]
+        ];
+        $("#canvas_dahs").length && $.plot($("#canvas_dahs"), [
+          data1, data2
+        ], {
+          series: {
+            lines: {
+              show: false,
+              fill: true
+            },
+            splines: {
+              show: true,
+              tension: 0.4,
+              lineWidth: 1,
+              fill: 0.4
+            },
+            points: {
+              radius: 0,
+              show: true
+            },
+            shadowSize: 2
+          },
+          grid: {
+            verticalLines: true,
+            hoverable: true,
+            clickable: true,
+            tickColor: "#d5d5d5",
+            borderWidth: 1,
+            color: '#fff'
+          },
+          colors: ["rgba(38, 185, 154, 0.38)", "rgba(3, 88, 106, 0.38)"],
+          xaxis: {
+            tickColor: "rgba(51, 51, 51, 0.06)",
+            mode: "time",
+            tickSize: [1, "day"],
+            //tickLength: 10,
+            axisLabel: "Date",
+            axisLabelUseCanvas: true,
+            axisLabelFontSizePixels: 12,
+            axisLabelFontFamily: 'Verdana, Arial',
+            axisLabelPadding: 10
+          },
+          yaxis: {
+            ticks: 8,
+            tickColor: "rgba(51, 51, 51, 0.06)",
+          },
+          tooltip: false
+        });
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-					<i class="icon-basket medium-icon"></i>
-						<h3>CREATIONS</h3>
-						<hr>
-						<p>Kreatifitas adalah hal utama, orang-orang kami akan membuat acara anda menjadi lebih berwarna</p>
-				</div>
+        function gd(year, month, day) {
+          return new Date(year, month - 1, day).getTime();
+        }
+      });
+    </script>
+    <!-- /Flot -->
 
-			</div>
+    <!-- JQVMap -->
+    <script>
+      $(document).ready(function(){
+        $('#world-map-gdp').vectorMap({
+            map: 'world_en',
+            backgroundColor: null,
+            color: '#ffffff',
+            hoverOpacity: 0.7,
+            selectedColor: '#666666',
+            enableZoom: true,
+            showTooltip: true,
+            values: sample_data,
+            scaleColors: ['#E6F2F0', '#149B7E'],
+            normalizeFunction: 'polynomial'
+        });
+      });
+    </script>
+    <!-- /JQVMap -->
 
-		</div>
-	</div>
-</section>
+    <!-- Skycons -->
+    <script>
+      $(document).ready(function() {
+        var icons = new Skycons({
+            "color": "#73879C"
+          }),
+          list = [
+            "clear-day", "clear-night", "partly-cloudy-day",
+            "partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
+            "fog"
+          ],
+          i;
 
+        for (i = list.length; i--;)
+          icons.set(list[i], list[i]);
 
-<!-- About section
-================================================== -->
-<section id="about" class="parallax-section">
-	<div class="container">
-		<div class="row">
+        icons.play();
+      });
+    </script>
+    <!-- /Skycons -->
 
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">ACTIVE PEOPLE</h5>
-					<h1 class="heading color-white">WHO WE ARE</h1>
-					<hr>
-					<p class="color-white">STORYBOARD EO adalah EO Terbaik di SUMATERA UTARA dengan pekerja-pekerja Kreatif</p>
-				</div>
-			</div>
+    <!-- Doughnut Chart -->
+    <script>
+      $(document).ready(function(){
+        var options = {
+          legend: false,
+          responsive: false
+        };
 
-			<div class="col-md-6 col-sm-12">
-				<h3 class="color-white">OUR STORY</h3>
-				<h2>STORYBOARD EO</h2>
-				<p class="color-white">STORYBOARD EO adalah salah satu Event Organizer di kota Medan yang terkenal dan didirikan pada tahun 2016. STORYBOARD EO bergerak dibidang entertainment yang menangani acara Wedding, Birthday, Anniversary, Launching Product, Expo, Seminar, Gathering, dll.</p>
-				<p class="color-white">Selain itu kami juga melayani acara perusahaan seperti expo, launching product, seminar, gathering, dll.</p>
-			</div>
+        new Chart(document.getElementById("canvas1"), {
+          type: 'doughnut',
+          tooltipFillColor: "rgba(51, 51, 51, 0.55)",
+          data: {
+            labels: [
+              "Symbian",
+              "Blackberry",
+              "Other",
+              "Android",
+              "IOS"
+            ],
+            datasets: [{
+              data: [15, 20, 30, 10, 30],
+              backgroundColor: [
+                "#BDC3C7",
+                "#9B59B6",
+                "#E74C3C",
+                "#26B99A",
+                "#3498DB"
+              ],
+              hoverBackgroundColor: [
+                "#CFD4D8",
+                "#B370CF",
+                "#E95E4F",
+                "#36CAAB",
+                "#49A9EA"
+              ]
+            }]
+          },
+          options: options
+        });
+      });
+    </script>
+    <!-- /Doughnut Chart -->
+    
+    <!-- bootstrap-daterangepicker -->
+    <script>
+      $(document).ready(function() {
 
-			<div class="col-md-6 col-sm-12">
-				<h2 class="mobile-top">KENAPA HARUS MEMILIH KAMI ?</h2>
-				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        var cb = function(start, end, label) {
+          console.log(start.toISOString(), end.toISOString(), label);
+          $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        };
 
-  					<div class="panel panel-default">
-   						<div class="panel-heading" role="tab" id="headingOne">
-      						<h4 class="panel-title">
-        						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          							Visi
-        						</a>
-      						</h4>
-    					</div>
-   						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      						<div class="panel-body">
-        						<p>Menjadi Event Organizer yang ternama di Sumatera Utara yang bekerja dengan professional, penuh tanggung jawab, dan selalu mengutamakan ketepatan waktu.</p>
-      						</div>
-   						 </div>
- 					 </div>
+        var optionSet1 = {
+          startDate: moment().subtract(29, 'days'),
+          endDate: moment(),
+          minDate: '01/01/2012',
+          maxDate: '12/31/2015',
+          dateLimit: {
+            days: 60
+          },
+          showDropdowns: true,
+          showWeekNumbers: true,
+          timePicker: false,
+          timePickerIncrement: 1,
+          timePicker12Hour: true,
+          ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+          },
+          opens: 'left',
+          buttonClasses: ['btn btn-default'],
+          applyClass: 'btn-small btn-primary',
+          cancelClass: 'btn-small',
+          format: 'MM/DD/YYYY',
+          separator: ' to ',
+          locale: {
+            applyLabel: 'Submit',
+            cancelLabel: 'Clear',
+            fromLabel: 'From',
+            toLabel: 'To',
+            customRangeLabel: 'Custom',
+            daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+            monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            firstDay: 1
+          }
+        };
+        $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+        $('#reportrange').daterangepicker(optionSet1, cb);
+        $('#reportrange').on('show.daterangepicker', function() {
+          console.log("show event fired");
+        });
+        $('#reportrange').on('hide.daterangepicker', function() {
+          console.log("hide event fired");
+        });
+        $('#reportrange').on('apply.daterangepicker', function(ev, picker) {
+          console.log("apply event fired, start/end dates are " + picker.startDate.format('MMMM D, YYYY') + " to " + picker.endDate.format('MMMM D, YYYY'));
+        });
+        $('#reportrange').on('cancel.daterangepicker', function(ev, picker) {
+          console.log("cancel event fired");
+        });
+        $('#options1').click(function() {
+          $('#reportrange').data('daterangepicker').setOptions(optionSet1, cb);
+        });
+        $('#options2').click(function() {
+          $('#reportrange').data('daterangepicker').setOptions(optionSet2, cb);
+        });
+        $('#destroy').click(function() {
+          $('#reportrange').data('daterangepicker').remove();
+        });
+      });
+    </script>
+    <!-- /bootstrap-daterangepicker -->
 
-    				<div class="panel panel-default">
-   						<div class="panel-heading" role="tab" id="headingTwo">
-      						<h4 class="panel-title">
-        						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          							Misi
-        						</a>
-      						</h4>
-    					</div>
-   						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      						<div class="panel-body">
-        						<p>Tantangan dunia entertainment yang terus berkembang menuntut kami untuk selalu kreatif dan inovatif dalam memberikan ide – ide yang unik kepada setiap konsumen kami. Untuk itu kami selalu menghadirkan berbagai acara dengan konsep yang berbeda sesuai dengan permintaan dan budget Anda.</p>
-      						</div>
-   						 </div>
- 					 </div>
+    <!-- gauge.js -->
+    <script>
+      var opts = {
+          lines: 12,
+          angle: 0,
+          lineWidth: 0.4,
+          pointer: {
+              length: 0.75,
+              strokeWidth: 0.042,
+              color: '#1D212A'
+          },
+          limitMax: 'false',
+          colorStart: '#1ABC9C',
+          colorStop: '#1ABC9C',
+          strokeColor: '#F0F3F3',
+          generateGradient: true
+      };
+      var target = document.getElementById('foo'),
+          gauge = new Gauge(target).setOptions(opts);
 
- 					 <div class="panel panel-default">
-   						<div class="panel-heading" role="tab" id="headingThree">
-      						<h4 class="panel-title">
-        						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-          							Berbagai Acara yang Pernah Ditangani
-        						</a>
-      						</h4>
-    					</div>
-   						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      						<div class="panel-body">
-        						<p>GG MILD, SOUNDRENALINE, JAVA JAZZ FESTIVAL, F2WL PENSI SMA NEGERI 2 BANDUNG, SMART 9 PENSI SMA NEGERI 2 MEDAN, FOS7 PENSI SMA NEGERI 1 MEDAN, FOS8 SMA NEGERI 1 MEDAN, PENSI AL-AZHAR 2016</p>
-      						</div>
-   						 </div>
- 					 </div>
-
- 				 </div>
-			</div>
-
-			<div class="col-md-3 col-sm-3 col-xs-6">
-				<div class="about-fact border-right">
-					<span>32</span>
-					<h4>PENSI</h4>
-				</div>
-			</div>
-
-			<div class="col-md-3 col-sm-3 col-xs-6">
-				<div class="about-fact border-right">
-					<span>16</span>
-					<h4>KONSER</h4>
-				</div>
-			</div>
-
-			<div class="col-md-3 col-sm-3 col-xs-6">
-				<div class="about-fact border-right">
-					<span>128</span>
-					<h4>GATHERING</h4>
-				</div>
-			</div>
-
-			<div class="col-md-3 col-sm-3 col-xs-6">
-				<div class="about-fact">
-					<span>24</span>
-					<h4>LAUNCHING</h4>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- team section
-================================================== -->
-<section id="team" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">WE ARE READY</h5>
-					<h1 class="heading">OUR TEAM</h1>
-					<hr>
-					<p>Team kreatif</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-				<div class="team-wrapper">
-					<img src="images/team1.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>M Reza Sanjaya</h4>
-							<h3>Coordinator Event</h3>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.6"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.3s">
-				<div class="team-wrapper">
-					<img src="images/team2.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>M Dwiki Ramadhan</h4>
-							<h3>Operational Director</h3>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.6"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
-				<div class="team-wrapper">
-					<img src="images/team3.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Gusti Wandira</h4>
-							<h3>Event Creator</h3>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.6"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- Portfolio section
-================================================== -->
-<section id="portfolio" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">WE ARE DELIGENT</h5>
-					<h1 class="heading">SHOWCASE</h1>
-					<hr>
-					<p>Our Experience !!</p>
-				</div>
-			</div>
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img1.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>SoundrenAline</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div>   
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img2.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Concert venue Lexus</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img3.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Java Jazz Festival</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-          	
-          	<div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img4.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Rock Am Ring</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img5.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Harmonycal Music</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img6.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>F2WL SMAN 2 BANDUNG</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <!-- Portfolio bottom section
-			================================================== -->
-            <div class="col-md-offset-2 col-md-8 col-sm-12">
-            	<div class="portfolio-bottom">
-            		<h2>INTERESTED?</h2>
-					<a href="#plan" class="smoothScroll btn btn-default">LET'S GO!</a>
-            	</div>
-            </div>    
-
-		</div>
-	</div>
-</section>		
-
-
-<!-- Plan section
-================================================== -->
-<section id="plan" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 wow fadeInUp">
-				<div class="section-title">
-					<h5 class="wow bounceIn">UNIQUE EVENT ORGANIZER</h5>
-					<h1 class="heading color-white">TIPE ACARA</h1>
-					<hr>
-					<p class="color-white">Kami menawarkan harga-harga terbaik untuk anda !!</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-				<div class="plan">
-					<h2 class="plan-title">Pensi</h2>
-					<div class="plan-price">
-						<h1 class="plan-price-title">Rp. 30 jt,- / <small>Event</small></h1>
-					</div>
-					<ul class="plan-list">
-						<li>Sound System</li>
-						<li>Rigging 6 x 8 m</li>
-						<li>Teratak</li>
-						<li>Aksesoris</li>
-					</ul>
-					<div class="plan-button">
-						<button class="btn btn-default">CHOOSE PLAN</button>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-				<div class="plan">
-					<h2 class="plan-title">Konser</h2>
-					<div class="plan-price">
-						<h1 class="plan-price-title">Rp. 60jt,- / <small>Event</small></h1>
-					</div>
-					<ul class="plan-list">
-						<li>Sound System</li>
-						<li>Rigging 8 x 10 m</li>
-						<li>Teratak</li>
-						<li>Aksesoris</li>
-					</ul>
-					<div class="plan-button">
-						<button class="btn btn-default">CHOOSE PLAN</button>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-				<div class="plan">
-					<h2 class="plan-title">Formal</h2>
-					<div class="plan-price">
-						<h1 class="plan-price-title">Rp. 12jt,- / <small>Event</small></h1>
-					</div>
-					<ul class="plan-list">
-						<li>Sound System</li>
-						<li>Rigging 4 x 6 m</li>
-						<li>Teratak</li>
-						<li>Aksesoris</li>
-					</ul>
-					<div class="plan-button">
-						<button class="btn btn-default">CHOOSE PLAN</button>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- Contact section
-================================================== -->
-<section id="contact" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">TERTARIK DENGAN EO KAMI ??</h5>
-					<h1 class="heading">HUBUNGI KAMI</h1>
-					<hr>
-					<p>LETS BELOW !!</p>
-				</div>
-			</div>
-
-			<!-- Contact form section
-			================================================== -->
-			<div class="col-md-offset-1 col-md-10 col-sm-12">
-				<form action="#" method="post" class="wow fadeInUp" data-wow-delay="0.6s">
-					<div class="col-md-4 col-sm-6">
-						<input type="text" class="form-control" placeholder="Name" name="name">
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<input type="email" class="form-control" placeholder="Email" name="email">
-					</div>
-					<div class="col-md-4 col-sm-12">
-						<input type="text" class="form-control" placeholder="Subject" name="subject">
-					</div>
-					<div class="col-md-12 col-sm-12">
-						<textarea class="form-control" placeholder="Message" rows="7" name"message"></textarea>
-					</div>
-					<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-						<input type="submit" class="form-control" value="SHOOT MESSAGE">
-					</div>
-				</form>
-			</div>
-
-			<!-- Contact detail section
-			================================================== -->
-			<div class="contact-detail col-md-12 col-sm-12">
-				<div class="col-md-6 col-sm-6">
-					<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
-					<p>storyboard@company.com</p>
-				</div>
-				<div class="col-md-6 col-sm-6">
-					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
-					<p>010-010-0110 | 0852-6261-1131</p>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- Footer section
-================================================== -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-
-				<h2 class="wow bounceIn">STORY BOARD EO</h2>
-				<ul class="social-icon">
-					<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-					<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="1s"></a></li>
-					<li><a href="#" class="fa fa-github wow fadeIn" data-wow-delay="1.3s"></a></li>
-					<li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="1.6s"></a></li>
-				</ul>
-				<p>Copyright &copy; 2016 STORYBOARD EO</p>
-
-			</div>
-		</div>
-	</div>
-</footer>
-
-
-<!-- Javascript 
-================================================== -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/jquery.easing-1.3.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
-
-</body>
+      gauge.maxValue = 6000;
+      gauge.animationSpeed = 32;
+      gauge.set(3200);
+      gauge.setTextField(document.getElementById("gauge-text"));
+    </script>
+    <!-- /gauge.js -->
+  </body>
 </html>
